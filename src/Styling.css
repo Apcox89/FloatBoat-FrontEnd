@@ -1,0 +1,53 @@
+ul {
+    background-color: #333; /* Background color for the navigation */
+    padding: 10px 0; /* Padding around the navigation links */
+    text-align: center; /* Align the navigation links to the center */
+}
+
+ul a {
+    color: white; /* Text color for navigation links */
+    text-decoration: none; /* Remove underline from navigation links */
+    margin: 0 20px; /* Add margin between navigation links */
+    padding: 10px; /* Add padding around navigation links */
+    transition: all 0.3s ease; /* Add smooth transition effect */
+}
+
+ul a:hover {
+    background-color: #555; /* Background color on hover */
+    border-radius: 5px; /* Add border radius on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 48%; /* Adjust as needed */
+}
+
+.column ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+.image-container {
+    text-align: center; /* Center align content within the container */
+}
+
+.image-container img {
+    display: inline-block; /* Make image inline-block to center align */
+}
+
+body {
+    background-color: black;
+    color: white; /* Optional: Set text color to white for better visibility */
+}
+
+.custom-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
