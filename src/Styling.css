@@ -1,20 +1,20 @@
 ul {
-    background-color: #333; /* Background color for the navigation */
-    padding: 10px 0; /* Padding around the navigation links */
-    text-align: center; /* Align the navigation links to the center */
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
 }
 
 ul a {
-    color: white; /* Text color for navigation links */
-    text-decoration: none; /* Remove underline from navigation links */
-    margin: 0 20px; /* Add margin between navigation links */
-    padding: 10px; /* Add padding around navigation links */
-    transition: all 0.3s ease; /* Add smooth transition effect */
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    padding: 10px;
+    transition: all 0.3s ease;
 }
 
 ul a:hover {
-    background-color: #555; /* Background color on hover */
-    border-radius: 5px; /* Add border radius on hover */
+    background-color: #555; 
+    border-radius: 5px; 
 }
 
 .text-align-center {
@@ -27,24 +27,24 @@ ul a:hover {
 }
 
 .column {
-    width: 48%; /* Adjust as needed */
+    width: 48%; 
 }
 
 .column ul {
-    list-style-type: none; /* Remove default bullet points */
+    list-style-type: none; 
 }
 
 .image-container {
-    text-align: center; /* Center align content within the container */
+    text-align: center; 
 }
 
 .image-container img {
-    display: inline-block; /* Make image inline-block to center align */
+    display: inline-block;
 }
 
 body {
     background-color: black;
-    color: white; /* Optional: Set text color to white for better visibility */
+    color: white; 
 }
 
 /* Cox note: demo move to Bootstrap */
@@ -55,4 +55,16 @@ body {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    color: whitesmoke
 }
