@@ -17,6 +17,10 @@ ul a:hover {
     border-radius: 5px; /* Add border radius on hover */
 }
 
+.text-align-center {
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -43,6 +47,7 @@ body {
     color: white; /* Optional: Set text color to white for better visibility */
 }
 
+/* Cox note: demo move to Bootstrap */
 .custom-button {
     background-color: #007bff;
     color: #fff;
