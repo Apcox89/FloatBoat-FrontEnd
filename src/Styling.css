@@ -2,6 +2,10 @@ ul {
     background-color: #52b79a;
     padding: 10px 0;
     text-align: center;
+    text-decoration: none;
+}
+ul li {
+    text-decoration: none;
 }
 
 ul a {
@@ -12,8 +16,12 @@ ul a {
     transition: all 0.3s ease;
 }
 
+.text-decoration-none{
+    text-decoration: none;
+}
+
 ul a:hover {
-    background-color: #555; 
+    background-color: #53a8b7; 
     border-radius: 5px; 
 }
 
@@ -45,6 +53,7 @@ ul a:hover {
 body {
     background-color: #52b79a;
     color: white; 
+    text-decoration: none;
 }
 
 /* Cox note: demo move to Bootstrap */
