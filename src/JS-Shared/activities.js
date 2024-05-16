@@ -1,5 +1,5 @@
 // Get the button element by its ID
-var button = document.getElementById('myButton');
+var button = document.getElementById('buttonClick');
 
 // Add a click event listener to the button
 button.addEventListener('click', function() {
