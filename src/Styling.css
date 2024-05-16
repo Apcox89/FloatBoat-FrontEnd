@@ -77,3 +77,39 @@ footer a {
     display: inline-block;
     color: whitesmoke
 }
+
+
+/* Cox note: explain the override of the bootstrap via js/css to define custom container styling */
+.custom-container {
+    background-color: #52b79a; 
+}
+
+.responsive-img-container {
+    max-width: 100%;
+    height: auto;
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .responsive-img-container {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-img-container {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .responsive-img-container {
+        max-width: 25%;
+        height: auto;
+    }
+}
+
+
+
+
