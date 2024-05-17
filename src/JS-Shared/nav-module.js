@@ -5,7 +5,7 @@ var navHtmlContent = `
             <div class="navbar-brand">
                 <img src="../../images/Float-Boat-Cert.png" class="d-inline-block align-top" alt="" loading="lazy">
             </div>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse" id="navbarNav">
