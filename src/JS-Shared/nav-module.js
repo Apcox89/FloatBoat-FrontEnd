@@ -1,4 +1,4 @@
-//demo nav module: bootstrap/refactored
+//Cox note: demo nav module: bootstrap/refactored
 var navHtmlContent = `
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
