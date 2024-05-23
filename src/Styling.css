@@ -78,6 +78,10 @@ footer a {
     color: whitesmoke
 }
 
+.list-unstyled li {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 /* Cox note: explain the override of the bootstrap via js/css to define custom container styling */
 .custom-container {
@@ -109,7 +113,3 @@ footer a {
         height: auto;
     }
 }
-
-
-
-

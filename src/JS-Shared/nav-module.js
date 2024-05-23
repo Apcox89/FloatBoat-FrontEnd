@@ -30,7 +30,7 @@ var navHtmlContent = `
 
 document.getElementById('navContainer').innerHTML = navHtmlContent;
 
-/*Cox note: Demo how to then override the bootsrap w/ your custom background color: */
-/*Find the element with the class "container" and add a custom class to it */
+/*Cox note: Demo how to override the bootsrap w/ your custom css-background-color: */
+/*Finds the element with the class "container" and add a custom class to it */
 var containerElement = document.querySelector('.container');
-containerElement.classList.add('custom-container');
+    containerElement.classList.add('custom-container');
