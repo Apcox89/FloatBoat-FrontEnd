@@ -5,6 +5,7 @@ var navHtmlContent = `
             <div class="navbar-brand">
                 <img src="../../images/Float-Boat-Cert.png" class="d-inline-block align-top" alt="" loading="lazy">
             </div>
+            <h1 class="text-white"> Float Boat Marine Services </h1>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,3 +35,8 @@ document.getElementById('navContainer').innerHTML = navHtmlContent;
 /*Finds the element with the class "container" and add a custom class to it */
 var containerElement = document.querySelector('.container');
     containerElement.classList.add('custom-container');
+/* Cox note: Demo sample of JS function at work w/ css*/
+var navLinks = document.querySelectorAll('a.nav-link');
+    navLinks.forEach(function(link) {
+        link.classList.add('text-white');
+    });
