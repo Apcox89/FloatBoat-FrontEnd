@@ -28,7 +28,7 @@
         <label for="city">City:</label><br>
         <input type="text" id="city" name="city" required><br><br>
         <!--Cox note: demo dropdown !-->
-        <label for="states">State:</label>
+        <label for="state">State:</label>
         <select id="states-list" name="state" required>
         </select>
         <br><br>
@@ -40,11 +40,14 @@
         <input type="tel" id="mobile" name="mobile" required><br><br>
 
         <label for="contact_method">Preferred Contact Method:</label><br>
+    
         <input type="radio" id="contact_email" name="contact_method" value="email" required>
         <label for="contact_email">Email</label><br>
+        
         <input type="radio" id="contact_text" name="contact_method" value="text" required>
         <label for="contact_text">Text Message</label><br><br>
-
+    
+        <!--Cox note: explain why event-onclick listener/handler is cleaner than straigt up href to Submit page-->
         <input type="submit" value="Submit" onClick="handleSubmit()">
         <br><br>
 
