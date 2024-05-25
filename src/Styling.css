@@ -3,6 +3,7 @@ ul {
     padding: 10px 0;
     text-align: center;
     text-decoration: none;
+    border-radius: 20px;
 }
 ul li {
     text-decoration: none;
@@ -32,6 +33,7 @@ ul a:hover {
 .container {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 1em;
 }
 
 .column {
@@ -107,10 +109,15 @@ footer a {
     background-color: #52b79a; 
 }
 
+.border-round {
+    border-radius: 20px;
+}
+
 .responsive-img-container {
     max-width: 100%;
     height: auto;
-    text-align: center; 
+    text-align: center;
+    border-radius: 20px;
 }
 
 @media (max-width: 768px) {

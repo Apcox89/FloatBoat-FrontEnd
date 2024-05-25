@@ -23,6 +23,9 @@ var navHtmlContent = `
                     <li class="nav-item">
                         <a class="nav-link" href="Locations.html">Locations</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Submit.html"> Account Login</a>
+                    </li>
                 </ul>
             </div>
         </div>
