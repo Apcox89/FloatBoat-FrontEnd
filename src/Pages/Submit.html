@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <link rel="stylesheet" href="../Styling.css">
+  <link rel="stylesheet" href="../../../../../Downloads/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <title> Submit Account </title>
+</head>
+<body>
+    <div id="navContainer"></div>
+    <script src="../JS-Shared/nav-module.js"></script>
+    <!-- Demo basic login form: -->
+    <div class="container login-container">
+        <div class="login-form">
+            <h4 class="text-center"> Float Boat members login: </h4>
+            <form action="/login" method="post">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" class="form-control" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-success btn-block">
+                    Login
+                </button>
+                <div class="text-center mt-3">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="text-center mt-3">
+                    <a href="#">Create an Account</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

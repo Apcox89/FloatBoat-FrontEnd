@@ -56,6 +56,21 @@ body {
     text-decoration: none;
 }
 
+.login-container {
+    margin-top: 10px;
+    background-color: #52b79a;
+    justify-content: center;
+    min-height: 30em;
+}
+.login-form {
+    max-width: 400px;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background-color: #52b79a;
+}
+
 /* Cox note: demo move to Bootstrap */
 .custom-button {
     background-color: blue;
@@ -96,20 +111,46 @@ footer a {
 
 @media (max-width: 768px) {
     .responsive-img-container {
-        max-width: 80%;
+        max-width: 90%;
     }
 }
 
 @media (max-width: 480px) {
     .responsive-img-container {
-        max-width: 50%;
+        max-width: 80%;
         height: auto;
     }
 }
 
 @media (max-width: 320px) {
     .responsive-img-container {
-        max-width: 25%;
+        max-width: 65%;
+        height: auto;
+    }
+}
+
+.responsive-img-logo {
+    max-width: 60%;
+    height: auto;
+    text-align: center; 
+}
+
+@media (max-width: 768px) {
+    .responsive-img-logo {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .responsive-img-logo {
+        max-width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .responsive-img-logo {
+        max-width: 40%;
         height: auto;
     }
 }
