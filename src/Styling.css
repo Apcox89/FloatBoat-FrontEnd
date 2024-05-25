@@ -58,9 +58,9 @@ body {
 
 .login-container {
     margin-top: 10px;
-    background-color: #52b79a;
     justify-content: center;
-    min-height: 30em;
+    min-height: 20em;
+    padding: 0 50px;
 }
 .login-form {
     max-width: 400px;
@@ -68,6 +68,10 @@ body {
     padding: 40px;
     border: 1px solid #ccc;
     border-radius: 30px;
+    background-color: #52b79a;
+}
+
+.bg-color {
     background-color: #52b79a;
 }
 
@@ -130,27 +134,28 @@ footer a {
 }
 
 .responsive-img-logo {
-    max-width: 60%;
+    max-width: 70%;
     height: auto;
     text-align: center; 
+    border-radius: 20px;
 }
 
 @media (max-width: 768px) {
     .responsive-img-logo {
-        max-width: 50%;
+        max-width: 75%;
     }
 }
 
 @media (max-width: 480px) {
     .responsive-img-logo {
-        max-width: 45%;
+        max-width: 70%;
         height: auto;
     }
 }
 
 @media (max-width: 320px) {
     .responsive-img-logo {
-        max-width: 40%;
+        max-width: 65%;
         height: auto;
     }
 }

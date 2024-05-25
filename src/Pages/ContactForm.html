@@ -45,8 +45,12 @@
         <input type="radio" id="contact_text" name="contact_method" value="text" required>
         <label for="contact_text">Text Message</label><br><br>
 
-        <input type="submit" value="Submit" href="Submit.html">
+        <input type="submit" value="Submit" onClick="handleSubmit()">
         <br><br>
+
+      <footer>
+        <p>&copy;Float Boat: 'Mint Green Edition' A.P. Cox 2024</p>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
     <script src="../../../../../Downloads/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
@@ -113,13 +117,7 @@
   });
 </script>
 <script>
-
-document.addEventListener("DOMContentLoaded", function() {
-    // Get the contact form element
-    const contactForm = document.getElementById('contactForm');
-      contactForm.addEventListener('submit', function(event) {
-          event.preventDefault();
-          window.location.href = this.action; //re-direct to submit-page
-    });
-});
+function handleSubmit() {
+  window.location.href = 'Submit.html';
+}
 </script>
