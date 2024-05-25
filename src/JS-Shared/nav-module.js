@@ -26,6 +26,9 @@ var navHtmlContent = `
                     <li class="nav-item">
                         <a class="nav-link" href="Submit.html"> Account Login</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ContactForm.html"> Contact Us!</a>
+                    </li>
                 </ul>
             </div>
         </div>
