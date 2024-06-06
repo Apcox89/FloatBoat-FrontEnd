@@ -14,7 +14,8 @@
     <div id="navContainer"></div>
       <script src="../JS-Shared/nav-module.js"></script>
       <!--Demo creating your html form-->
-    <form class="custom-container text-align-center text-white" action="Submit.html" method="post">
+      <!--Demo form validation before showing the request-quote-fn-->
+    <form id="contactForm" class="custom-container text-align-center text-white" action="Submit.html" method="post" onsubmit="handleSubmit(event)">
       <h4 class="text-align-center text-white"> Float Boat: Submit a Request! </h3>
         <label for="first_name">First Name:</label><br>
         <input type="text" id="first_name" name="first_name" required><br><br>
@@ -46,9 +47,21 @@
         
         <input type="radio" id="contact_text" name="contact_method" value="text" required>
         <label for="contact_text">Text Message</label><br><br>
-    
+
+        <label>Would you like a mini quote? Please select the services you would like:</label><br>
+        <input type="checkbox" id="service1" name="services" value="80" onclick="calculateTotal()">
+        <label for="service1">Complete Boat Safety Check $80</label><br>
+        <input type="checkbox" id="service2" name="services" value="120" onclick="calculateTotal()">
+        <label for="service2">Winterizing $120</label><br>
+        <input type="checkbox" id="service3" name="services" value="120" onclick="calculateTotal()">
+        <label for="service3">Summerizing $120</label><br><br>
+
+        <label for="total">Total:</label>
+        <input type="text" id="total" name="total" readonly>
+        <br/>
+        
         <!--Cox note: explain why event-onclick listener/handler is cleaner than straigt up href to Submit page-->
-        <input type="submit" value="Submit" onClick="handleSubmit()">
+        <input type="submit" value="Submit">
         <br><br>
 
       <footer>
@@ -62,7 +75,18 @@
 <script src="../JS-Shared/states-list.js">
 </script>
 <script>
-function handleSubmit() {
-  window.location.href = 'Submit.html';
+function handleSubmit(event) { 
+  let contactForm = document.getElementById('contactForm');
+  if (!form.checkValidity()) {
+        event.preventDefault(); 
+        alert('Please fill out all required fields.');
+        //other validation as needed...
+    } else {
+        window.location.href = 'Submit.html'; // 
+    }
+}
+
+function calculateTotal() {
+  //Cox todo: finish up functionality
 }
 </script>
