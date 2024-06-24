@@ -48,7 +48,7 @@
         <input type="radio" id="contact_text" name="contact_method" value="text" required>
         <label for="contact_text">Text Message</label><br><br>
 
-        <label>Would you like a mini quote? Please select the services you would like:</label><br>
+        <label>Would you like a quote-estimate? Please select the services you would like: </label><br>
         <input type="checkbox" id="service1" name="services" value="80" onclick="calculateTotal()">
         <label for="service1">Complete Boat Safety Check $80</label><br>
         <input type="checkbox" id="service2" name="services" value="120" onclick="calculateTotal()">
@@ -58,7 +58,7 @@
 
         <label for="total">Total:</label>
         <input type="text" id="total" name="total" readonly>
-        <br/>
+        <br/><br/>
         
         <!--Cox note: explain why event-onclick listener/handler is cleaner than straigt up href to Submit page-->
         <input type="submit" value="Submit">
@@ -74,19 +74,6 @@
 <!--Cox todo: demo another best-practice by containing the states-list-->
 <script src="../JS-Shared/states-list.js">
 </script>
-<script>
-function handleSubmit(event) { 
-  let contactForm = document.getElementById('contactForm');
-  if (!form.checkValidity()) {
-        event.preventDefault(); 
-        alert('Please fill out all required fields.');
-        //other validation as needed...
-    } else {
-        window.location.href = 'Submit.html'; // 
-    }
-}
+<script src="../JS-Shared/contact-form-activities.js">
 
-function calculateTotal() {
-  //Cox todo: finish up functionality
-}
 </script>
