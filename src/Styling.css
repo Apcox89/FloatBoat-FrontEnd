@@ -121,10 +121,15 @@ footer a {
 }
 
 .responsive-img-container {
-    max-width: 100%;
+    max-width: 95%;
     height: auto;
-    text-align: center;
     border-radius: 20px;
+}
+
+@media (min-width: 980px) {
+    .aboutus-section {
+        display: block !important;
+    }
 }
 
 @media (max-width: 768px) {
